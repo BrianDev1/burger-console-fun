@@ -7,7 +7,7 @@ public class Main {
     public static void main(String[] args) {
 
         /* Store all my hamburger orders */
-        ArrayList<Hamburger> hamburgerOrders = new ArrayList<Hamburger>();
+        ArrayList<Hamburger> hamburgerOrders = new ArrayList<>();
 
         /* Toppings to be added to an Array of Toppings to be past to Hamburger Class ---> (****) */
         Toppings tomato = new Toppings("Tomato");
