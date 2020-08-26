@@ -20,7 +20,7 @@ public class Main {
         hamburgerOrders.add(myHamburger);                                                           //Add burger to my orders arrayList
 
         /* Healthy Burger Inherits from Hamburger, and Overrides certain attributes */
-        HealthyBurger myHealthBurger = new HealthyBurger(new Toppings[] {tomato,lettuce,onion,});
+        HealthyBurger myHealthBurger = new HealthyBurger(new Toppings[] {tomato,lettuce,onion});
         hamburgerOrders.add(myHealthBurger);                                                        //Add burger to my orders arrayList
 
         DeluxeBurger myDeluxe = new DeluxeBurger();
